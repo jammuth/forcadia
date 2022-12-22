@@ -1,0 +1,1437 @@
+[
+  {
+    "name": "Cadian Command Squad",
+    "role": "HQ",
+    "size": [5],
+    "cost": 75,
+    "cost_type": "unit",
+    "extras_type": "one",
+    "extras": [
+      {
+        "id": 1,
+        "name": "Replaces Cadian Veteran Gaurdsmen's Bolt Pistol",
+        "options": [
+          {
+            "id": 1,
+            "name": "Plasma Pistol",
+            "cost": 5,
+            "active": false
+          }
+        ],
+        "type": "check"
+      },
+      {
+        "id": 2,
+        "name": "Replaces Cadian Veteran Gaurdsmen's Chainsword",
+        "options": [
+          {
+            "id": 1,
+            "name": "Power Fist",
+            "cost": 5,
+            "active": false
+          }
+        ],
+        "type": "check"
+      }
+    ]
+  },
+  {
+    "name": "Cadian Castellen",
+    "role": "HQ",
+    "size": [1],
+    "cost": 50,
+    "cost_type": "unit",
+    "extras_type": "one",
+    "extras": [
+      {
+        "id": 1,
+        "name": "Replaces Cadian Veteran Gaurdsmen's Bolt Pistol",
+        "options": [
+          {
+            "id": 1,
+            "name": "Plasma Pistol",
+            "cost": 5,
+            "active": false
+          }
+        ],
+        "type": "check"
+      },
+      {
+        "name": "Replaces Cadian Veteran Gaurdsmen's Chainsword",
+        "options": [
+          {
+            "id": 1,
+            "name": "Power Fist",
+            "cost": 5,
+            "active": false
+          }
+        ],
+        "type": "check"
+      }
+    ]
+  },
+  {
+    "name": "Gaunts Ghosts",
+    "role": "HQ",
+    "size": [6],
+    "cost": 120,
+    "cost_type": "unit"
+  },
+  {
+    "name": "'Iron Hand' Straken",
+    "role": "HQ",
+    "size": [1],
+    "cost": 75,
+    "cost_type": "unit"
+  },
+  {
+    "name": "Lord Solar Leontus",
+    "role": "HQ",
+    "size": [1],
+    "cost": 170,
+    "cost_type": "unit"
+  },
+  {
+    "name": "Militarum Tempestus Command Squad",
+    "role": "HQ",
+    "size": [5],
+    "cost": 95,
+    "cost_type": "unit",
+    "extras_type": "one",
+    "extras": [
+      {
+        "id": 1,
+        "name": "Replaces Tempestus Prime's Bolt Pistol",
+        "options": [
+          {
+            "id": 1,
+            "name": "Bolt Pistol",
+            "cost": 0,
+            "active": false
+          },
+          {
+            "id": 2,
+            "name": "Plasma Pistol",
+            "cost": 5,
+            "active": false
+          },
+          {
+            "id": 3,
+            "name": "Tempestus Control Rod",
+            "cost": 5,
+            "active": false
+          }
+        ],
+        "type": "group"
+      }
+    ]
+  },
+  {
+    "name": "Platoon Command Squad",
+    "role": "HQ",
+    "size": [5],
+    "cost": 75,
+    "cost_type": "unit",
+    "extras_type": "one",
+    "extras": [
+      {
+        "id": 1,
+        "name": "Replaces Platoon Commander's Bolt Pistol",
+        "options": [
+          {
+            "id": 1,
+            "name": "Plasma Pistol",
+            "cost": 5,
+            "active": false
+          }
+        ],
+        "type": "check"
+      },
+      {
+        "replaces": "Platoon Commander's Chainsword",
+        "options": [
+          {
+            "id": 1,
+            "name": "Power Fist",
+            "cost": 5,
+            "active": false
+          }
+        ],
+        "type": "check"
+      }
+    ]
+  },
+  {
+    "name": "Primaris Psyker",
+    "role": "HQ",
+    "size": [1],
+    "cost": 60,
+    "cost_type": "unit"
+  },
+  {
+    "name": "Tank Commander",
+    "role": "HQ",
+    "size": [1],
+    "cost": 160,
+    "cost_type": "unit",
+    "extras_type": "one",
+    "extras": [
+      {
+        "id": 1,
+        "name": "Choose One:",
+        "options": [
+          {
+            "id": 1,
+            "name": "None",
+            "cost": 0,
+            "active": true
+          },
+          {
+            "id": 2,
+            "name": "Storm Bolter",
+            "cost": 5,
+            "active": false
+          },
+          {
+            "id": 3,
+            "name": "Heavy Stubber",
+            "cost": 5,
+            "active": false
+          }
+        ],
+        "type": "group"
+      },
+      {
+        "id": 2,
+        "name": "Choose One:",
+        "options": [
+          {
+            "id": 1,
+            "name": "None",
+            "cost": 0,
+            "active": true
+          },
+          {
+            "id": 2,
+            "name": "2x Heavy Flamers",
+            "cost": 10,
+            "active": false
+          },
+          {
+            "id": 3,
+            "name": "2x Heavy Bolters",
+            "cost": 5,
+            "active": false
+          },
+          {
+            "id": 4,
+            "name": "2x Militarum Plasma Cannons",
+            "cost": 20,
+            "active": false
+          },
+          {
+            "id": 5,
+            "name": "2x Multi-Meltas",
+            "cost": 30,
+            "active": false
+          }
+        ],
+        "type": "group"
+      },
+      {
+        "id": 3,
+        "name": "Replaces Lascannon",
+        "options": [
+          {
+            "id": 1,
+            "name": "Lascannon",
+            "cost": 5,
+            "active": true
+          },
+          {
+            "id": 2,
+            "name": "Heavy Bolter",
+            "cost": 5,
+            "active": false
+          },
+          {
+            "id": 3,
+            "name": "Heavy Flamer",
+            "cost": 5,
+            "active": false
+          }
+        ],
+        "type": "group"
+      },
+      {
+        "id": 4,
+        "name": "Optional:",
+        "options": [
+          {
+            "id": 1,
+            "name": "Dozer Blade",
+            "cost": 5,
+            "active": false
+          },
+          {
+            "id": 2,
+            "name": "Hunter-Killer Missle",
+            "cost": 5,
+            "active": false
+          },
+          {
+            "id": 3,
+            "name": "Armoured Tracks",
+            "cost": 5,
+            "active": false
+          }
+        ],
+        "type": "check"
+      }
+    ]
+  },
+  {
+    "name": "Ursula Creed",
+    "role": "HQ",
+    "size": [1],
+    "cost": 80,
+    "cost_type": "unit"
+  },
+  {
+    "name": "Astropath",
+    "role": "Attache",
+    "size": [1],
+    "cost": 40,
+    "cost_type": "unit"
+  },
+  {
+    "name": "Master of Ordnance",
+    "role": "Attache",
+    "size": [1],
+    "cost": 25,
+    "cost_type": "unit"
+  },
+  {
+    "name": "Nork Deddog",
+    "role": "Attache",
+    "size": [1],
+    "cost": 60,
+    "cost_type": "unit"
+  },
+  {
+    "name": "Officer of the Fleet",
+    "role": "Attache",
+    "size": [1],
+    "cost": 25,
+    "cost_type": "unit"
+  },
+  {
+    "name": "Ogryn Bodyguard",
+    "role": "Attache",
+    "size": [1],
+    "cost": 50,
+    "cost_type": "unit",
+    "extras_type": "one",
+    "extras": [
+      {
+        "id": 1,
+        "name": "Optional:",
+        "options": [
+          {
+            "id": 1,
+            "name": "Bullgryn Maul",
+            "cost": 5,
+            "active": false
+          },
+          {
+            "id": 2,
+            "name": "Bullgryn Plate",
+            "cost": 5,
+            "active": false
+          },
+          {
+            "id": 3,
+            "name": "Slabshield",
+            "cost": 5,
+            "active": false
+          }
+        ],
+        "type": "check"
+      }
+    ]
+  },
+  {
+    "name": "Cadian Shock Troops",
+    "role": "Troops",
+    "size": [10],
+    "cost": 65,
+    "cost_type": "unit"
+  },
+  {
+    "name": "Catachan Jungle Fighters",
+    "role": "Troops",
+    "size": [10],
+    "cost": 70,
+    "cost_type": "unit"
+  },
+  {
+    "name": "Catachan Jungle Fighters",
+    "role": "Troops",
+    "size": [10],
+    "cost": 70,
+    "cost_type": "unit"
+  },
+  {
+    "name": "Death Korps of Krieg",
+    "role": "Troops",
+    "size": [10],
+    "cost": 75,
+    "cost_type": "unit",
+    "extras_type": "one",
+    "extras": [
+      {
+        "id": 1,
+        "name": "Optional:",
+        "options": [
+          {
+            "id": 1,
+            "name": "Death Korps medi-pack",
+            "cost": 5,
+            "active": false
+          },
+          {
+            "id": 2,
+            "name": "Plasma Pistol",
+            "cost": 5,
+            "active": false
+          },
+          {
+            "id": 3,
+            "name": "Power Sword",
+            "cost": 5,
+            "active": false
+          }
+        ],
+        "type": "check"
+      }
+    ]
+  },
+  {
+    "name": "Infantry Squad",
+    "role": "Troops",
+    "size": [10],
+    "cost": 65,
+    "cost_type": "unit",
+    "extras_type": "one",
+    "extras": [
+      {
+        "id": 1,
+        "name": "Optional:",
+        "options": [
+          {
+            "id": 1,
+            "name": "Plasma Pistol",
+            "cost": 5,
+            "active": false
+          },
+          {
+            "id": 2,
+            "name": "Power Sword",
+            "cost": 5,
+            "active": false
+          }
+        ],
+        "type": "check"
+      }
+    ]
+  },
+  {
+    "name": "Bullgryn",
+    "role": "Elites",
+    "size": [3, 4, 5, 6],
+    "cost": 30,
+    "cost_type": "model",
+    "extra_type": "each",
+    "extras": [
+      {
+        "id": 1,
+        "name": "Optional:",
+        "options": [
+          {
+            "id": 1,
+            "name": "Bullgryn Maul",
+            "cost": 5,
+            "active": false
+          }
+        ],
+        "type": "check"
+      }
+    ]
+  },
+  {
+    "name": "Commissar",
+    "role": "Elites",
+    "size": [1],
+    "cost": 40,
+    "cost_type": "unit",
+    "extras_type": "one",
+    "extras": [
+      {
+        "id": 1,
+        "name": "Optional:",
+        "options": [
+          {
+            "id": 1,
+            "name": "Plasma Pistol",
+            "cost": 5,
+            "active": false
+          },
+          {
+            "id": 2,
+            "name": "Power Sword",
+            "cost": 5,
+            "active": false
+          }
+        ],
+        "type": "check"
+      }
+    ]
+  },
+  {
+    "name": "Kasrkin",
+    "role": "Elites",
+    "size": [10],
+    "cost": 100,
+    "cost_type": "unit",
+    "extras_type": "one",
+    "extras": [
+      {
+        "id": 1,
+        "name": "Optional:",
+        "options": [
+          {
+            "id": 1,
+            "name": "Plasma Pistol",
+            "cost": 5,
+            "active": false
+          },
+          {
+            "id": 2,
+            "name": "Power Sword",
+            "cost": 5,
+            "active": false
+          }
+        ],
+        "type": "check"
+      }
+    ]
+  },
+  {
+    "name": "Munitorum Servitors",
+    "role": "Elites",
+    "size": [4],
+    "cost": 40,
+    "cost_type": "unit",
+    "extras_type": "one",
+    "extras": [
+      {
+        "id": 1,
+        "name": "Optional:",
+        "options": [
+          {
+            "id": 1,
+            "name": "servo-arm",
+            "cost": 0,
+            "active": true
+          },
+          {
+            "id": 2,
+            "name": "Heavy Bolter",
+            "cost": 5,
+            "active": false
+          },
+          {
+            "id": 3,
+            "name": "Multi-Melta",
+            "cost": 15,
+            "active": false
+          },
+          {
+            "id": 4,
+            "name": "Plasma Cannon",
+            "cost": 10,
+            "active": false
+          }
+        ],
+        "type": "group"
+      },
+      {
+        "name": "Optional:",
+        "options": [
+          {
+            "id": 1,
+            "name": "servo-arm",
+            "cost": 0,
+            "active": true
+          },
+          {
+            "id": 2,
+            "name": "Heavy Bolter",
+            "cost": 5,
+            "active": false
+          },
+          {
+            "id": 3,
+            "name": "Multi-Melta",
+            "cost": 15,
+            "active": false
+          },
+          {
+            "id": 4,
+            "name": "Plasma Cannon",
+            "cost": 10,
+            "active": false
+          }
+        ],
+        "type": "group"
+      }
+    ]
+  },
+  {
+    "name": "Ogryns",
+    "role": "Elites",
+    "size": [3, 4, 5, 6],
+    "cost": 30,
+    "cost_type": "model"
+  },
+  {
+    "name": "Ratlings",
+    "role": "Elites",
+    "size": [5],
+    "cost": 50,
+    "cost_type": "unit"
+  },
+  {
+    "name": "Regimental Enginseer",
+    "role": "Elites",
+    "size": [1],
+    "cost": 40,
+    "cost_type": "unit"
+  },
+  {
+    "name": "Regimental Preacher",
+    "role": "Elites",
+    "size": [1],
+    "cost": 40,
+    "cost_type": "unit",
+    "extras_type": "one",
+    "extras": [
+      {
+        "id": 1,
+        "name": "Optional:",
+        "options": [
+          {
+            "id": 1,
+            "name": "Power Maul",
+            "cost": 5,
+            "active": false
+          }
+        ],
+        "type": "check"
+      }
+    ]
+  },
+  {
+    "name": "Sargeant Harker",
+    "role": "Elites",
+    "size": [1],
+    "cost": 40,
+    "cost_type": "unit"
+  },
+  {
+    "name": "Sly Marbo",
+    "role": "Elites",
+    "size": [1],
+    "cost": 50,
+    "cost_type": "unit"
+  },
+  {
+    "name": "Tempestus Scions",
+    "role": "Elites",
+    "size": [5, 6, 7, 8, 9, 10],
+    "cost": 11,
+    "cost_type": "model",
+    "extras_type": "one",
+    "extras": [
+      {
+        "id": 1,
+        "name": "Optional:",
+        "options": [
+          {
+            "id": 1,
+            "name": "Power Fist",
+            "cost": 5,
+            "active": false
+          }
+        ],
+        "type": "check"
+      }
+    ]
+  },
+  {
+    "name": "Armoured Sentinal",
+    "role": "Fast Attack",
+    "size": [1, 2, 3],
+    "cost": 45,
+    "cost_type": "model",
+    "extras_type": "one",
+    "extras": [
+      {
+        "id": 1,
+        "name": "Optional:",
+        "options": [
+          {
+            "id": 1,
+            "name": "Hunter-Killer Missle",
+            "cost": 5,
+            "active": false
+          },
+          {
+            "id": 2,
+            "name": "Sentinal Chainsaw",
+            "cost": 5,
+            "active": false
+          }
+        ],
+        "type": "check"
+      }
+    ]
+  },
+  {
+    "name": "Attilan Rough Riders",
+    "role": "Fast Attack",
+    "size": [5, 6, 7, 8, 9, 10],
+    "cost": 20,
+    "cost_type": "model"
+  },
+  {
+    "name": "Hellhound",
+    "role": "Fast Attack",
+    "size": [1],
+    "cost": 110,
+    "cost_type": "unit",
+    "extras_type": "one",
+    "extras": [
+      {
+        "id": 1,
+        "name": "Optional",
+        "options": [
+          {
+            "id": 1,
+            "name": "Multi-Melta",
+            "cost": 10,
+            "active": false
+          },
+          {
+            "id": 2,
+            "name": "Dozer Blade",
+            "cost": 5,
+            "active": false
+          },
+          {
+            "id": 3,
+            "name": "Hunter-Killer Missle",
+            "cost": 5,
+            "active": false
+          },
+          {
+            "id": 4,
+            "name": "Armoured Tracks",
+            "cost": 5,
+            "active": false
+          }
+        ],
+        "type": "check"
+      }
+    ]
+  },
+  {
+    "name": "Scout Sentinal",
+    "role": "Fast Attack",
+    "size": [1, 2, 3],
+    "cost": 40,
+    "cost_type": "model",
+    "extras_type": "one",
+    "extras": [
+      {
+        "id": 1,
+        "name": "Optional:",
+        "options": [
+          {
+            "id": 1,
+            "name": "Hunter-Killer Missle",
+            "cost": 5,
+            "active": false
+          },
+          {
+            "id": 2,
+            "name": "Sentinal Chainsaw",
+            "cost": 5,
+            "active": false
+          }
+        ],
+        "type": "check"
+      }
+    ]
+  },
+  {
+    "name": "Basilisk",
+    "role": "Heavy Support",
+    "size": [1],
+    "cost": 140,
+    "cost_type": "unit",
+    "extras_type": "one",
+    "extras": [
+      {
+        "id": 1,
+        "name": "Optional:",
+        "options": [
+          {
+            "id": 1,
+            "name": "Dozer Blade",
+            "cost": 5,
+            "active": false
+          },
+          {
+            "id": 2,
+            "name": "Hunter-Killer Missle",
+            "cost": 5,
+            "active": false
+          },
+          {
+            "id": 3,
+            "name": "Armoured Tracks",
+            "cost": 5,
+            "active": false
+          }
+        ],
+        "type": "check"
+      }
+    ]
+  },
+  {
+    "name": "Deathstrike",
+    "role": "Heavy Support",
+    "size": [1],
+    "cost": 160,
+    "cost_type": "unit",
+    "extras_type": "one",
+    "extras": [
+      {
+        "id": 1,
+        "name": "Optional:",
+        "options": [
+          {
+            "id": 1,
+            "name": "Dozer Blade",
+            "cost": 5,
+            "active": false
+          },
+          {
+            "id": 2,
+            "name": "Hunter-Killer Missle",
+            "cost": 5,
+            "active": false
+          },
+          {
+            "id": 3,
+            "name": "Armoured Tracks",
+            "cost": 5,
+            "active": false
+          }
+        ],
+        "type": "check"
+      }
+    ]
+  },
+  {
+    "name": "Field Ordnance Battery",
+    "role": "Heavy Support",
+    "size": [2],
+    "cost": 130,
+    "cost_type": "unit"
+  },
+  {
+    "name": "Heavy Weapons Squad",
+    "role": "Heavy Support",
+    "size": [3],
+    "cost": 55,
+    "cost_type": "unit"
+  },
+  {
+    "name": "Hydra",
+    "role": "Heavy Support",
+    "size": [1],
+    "cost": 110,
+    "cost_type": "unit",
+    "extras_type": "one",
+    "extras": [
+      {
+        "id": 1,
+        "name": "Optional:",
+        "options": [
+          {
+            "id": 1,
+            "name": "Dozer Blade",
+            "cost": 5,
+            "active": false
+          },
+          {
+            "id": 2,
+            "name": "Hunter-Killer Missle",
+            "cost": 5,
+            "active": false
+          }
+        ],
+        "type": "check"
+      }
+    ]
+  },
+  {
+    "name": "Wyvern",
+    "role": "Heavy Support",
+    "size": [1],
+    "cost": 120,
+    "cost_type": "unit",
+    "extras_type": "one",
+    "extras": [
+      {
+        "id": 1,
+        "name": "Optional:",
+        "options": [
+          {
+            "id": 1,
+            "name": "Dozer Blade",
+            "cost": 5,
+            "active": false
+          },
+          {
+            "id": 2,
+            "name": "Hunter-Killer Missle",
+            "cost": 5,
+            "active": false
+          },
+          {
+            "id": 3,
+            "name": "Armoured Tracks",
+            "cost": 5,
+            "active": false
+          }
+        ],
+        "type": "check"
+      }
+    ]
+  },
+  {
+    "name": "Manticore",
+    "role": "Heavy Support",
+    "size": [1],
+    "cost": 140,
+    "cost_type": "unit",
+    "extras_type": "one",
+    "extras": [
+      {
+        "id": 1,
+        "name": "Optional:",
+        "options": [
+          {
+            "id": 1,
+            "name": "Dozer Blade",
+            "cost": 5,
+            "active": false
+          },
+          {
+            "id": 2,
+            "name": "Hunter-Killer Missle",
+            "cost": 5,
+            "active": false
+          },
+          {
+            "id": 3,
+            "name": "Armoured Tracks",
+            "cost": 5,
+            "active": false
+          }
+        ],
+        "type": "check"
+      }
+    ]
+  },
+  {
+    "name": "Leman Russ Battle Tanks",
+    "role": "Heavy Support",
+    "size": [1, 2, 3],
+    "cost": 150,
+    "cost_type": "model",
+    "extra_type": "each",
+    "extras": [
+      {
+        "id": 1,
+        "name": "Choose One:",
+        "options": [
+          {
+            "id": 1,
+            "name": "None",
+            "cost": 0,
+            "active": true
+          },
+          {
+            "id": 2,
+            "name": "Storm Bolter",
+            "cost": 5,
+            "active": false
+          },
+          {
+            "id": 3,
+            "name": "Heavy Stubber",
+            "cost": 5,
+            "active": false
+          }
+        ],
+        "type": "group"
+      },
+      {
+        "name": "Choose One:",
+        "options": [
+          {
+            "id": 1,
+            "name": "None",
+            "cost": 0,
+            "active": true
+          },
+          {
+            "id": 2,
+            "name": "2x Heavy Flamers",
+            "cost": 10,
+            "active": false
+          },
+          {
+            "id": 3,
+            "name": "2x Heavy Bolters",
+            "cost": 5,
+            "active": false
+          },
+          {
+            "id": 4,
+            "name": "2x Militarum Plasma Cannons",
+            "cost": 20,
+            "active": false
+          },
+          {
+            "id": 5,
+            "name": "2x Multi-Meltas",
+            "cost": 30,
+            "active": false
+          }
+        ],
+        "type": "group"
+      },
+      {
+        "name": "Replaces Lascannon",
+        "options": [
+          {
+            "id": 1,
+            "name": "Lascannon",
+            "cost": 5,
+            "active": true
+          },
+          {
+            "id": 2,
+            "name": "Heavy Bolter",
+            "cost": 5,
+            "active": false
+          },
+          {
+            "id": 3,
+            "name": "Heavy Flamer",
+            "cost": 5,
+            "active": false
+          }
+        ],
+        "type": "group"
+      },
+      {
+        "name": "Optional:",
+        "options": [
+          {
+            "id": 1,
+            "name": "Dozer Blade",
+            "cost": 5,
+            "active": false
+          },
+          {
+            "id": 2,
+            "name": "Hunter-Killer Missle",
+            "cost": 5,
+            "active": false
+          },
+          {
+            "id": 3,
+            "name": "Armoured Tracks",
+            "cost": 5,
+            "active": false
+          }
+        ],
+        "type": "check"
+      }
+    ]
+  },
+  {
+    "name": "Chimera",
+    "role": "Dedicated Transport",
+    "size": [1],
+    "cost": 140,
+    "cost_type": "unit",
+    "extras_type": "one",
+    "extras": [
+      {
+        "id": 1,
+        "name": "Choose One:",
+        "options": [
+          {
+            "id": 1,
+            "name": "None",
+            "cost": 0,
+            "active": true
+          },
+          {
+            "id": 2,
+            "name": "Storm Bolter",
+            "cost": 5,
+            "active": false
+          },
+          {
+            "id": 3,
+            "name": "Heavy Stubber",
+            "cost": 5,
+            "active": false
+          }
+        ],
+        "type": "group"
+      },
+      {
+        "name": "Optional:",
+        "options": [
+          {
+            "id": 1,
+            "name": "Dozer Blade",
+            "cost": 5,
+            "active": false
+          },
+          {
+            "id": 2,
+            "name": "Hunter-Killer Missle",
+            "cost": 5,
+            "active": false
+          },
+          {
+            "id": 3,
+            "name": "Armoured Tracks",
+            "cost": 5,
+            "active": false
+          }
+        ],
+        "type": "check"
+      }
+    ]
+  },
+  {
+    "name": "Taurox",
+    "role": "Dedicated Transport",
+    "size": [1],
+    "cost": 70,
+    "cost_type": "unit",
+    "extras_type": "one",
+    "extras": [
+      {
+        "id": 1,
+        "name": "Optional:",
+        "options": [
+          {
+            "id": 1,
+            "name": "Storm Bolter",
+            "cost": 5,
+            "active": false
+          }
+        ],
+        "type": "check"
+      }
+    ]
+  },
+  {
+    "name": "Taurox Prime",
+    "role": "Dedicated Transport",
+    "size": [1],
+    "cost": 105,
+    "cost_type": "unit",
+    "extras_type": "one",
+    "extras": [
+      {
+        "id": 1,
+        "name": "Optional:",
+        "options": [
+          {
+            "id": 1,
+            "name": "Storm Bolter",
+            "cost": 5,
+            "active": false
+          }
+        ],
+        "type": "check"
+      }
+    ]
+  },
+  {
+    "name": "Valkyrie",
+    "role": "Flyer",
+    "size": [1],
+    "cost": 140,
+    "cost_type": "unit",
+    "extras_type": "one",
+    "extras": [
+      {
+        "id": 1,
+        "name": "Optional:",
+        "options": [
+          {
+            "id": 1,
+            "name": "2x Heavy Bolter",
+            "cost": 10,
+            "active": false
+          },
+          {
+            "id": 2,
+            "name": "Lascannon",
+            "cost": 5,
+            "active": false
+          }
+        ],
+        "type": "check"
+      }
+    ]
+  },
+  {
+    "name": "Baneblade",
+    "role": "Lord of War",
+    "size": [1],
+    "cost": 430,
+    "cost_type": "unit",
+    "extras_type": "one",
+    "extras": [
+      {
+        "id": 1,
+        "name": "Optional:",
+        "options": [
+          {
+            "id": 1,
+            "name": "2x Lascannon",
+            "cost": 40,
+            "active": false
+          }
+        ],
+        "type": "check"
+      }
+    ]
+  },
+  {
+    "name": "Baneblade",
+    "role": "Lord of War",
+    "size": [1],
+    "cost": 430,
+    "cost_type": "unit",
+    "extras_type": "one",
+    "extras": [
+      {
+        "id": 1,
+        "name": "Optional:",
+        "options": [
+          {
+            "id": 1,
+            "name": "2x Lascannon",
+            "cost": 40,
+            "active": false
+          }
+        ],
+        "type": "check"
+      }
+    ]
+  },
+  {
+    "name": "Banehammer",
+    "role": "Lord of War",
+    "size": [1],
+    "cost": 400,
+    "cost_type": "unit",
+    "extras_type": "one",
+    "extras": [
+      {
+        "id": 1,
+        "name": "Optional:",
+        "options": [
+          {
+            "id": 1,
+            "name": "2x Lascannon",
+            "cost": 40,
+            "active": false
+          }
+        ],
+        "type": "check"
+      }
+    ]
+  },
+  {
+    "name": "Banesword",
+    "role": "Lord of War",
+    "size": [1],
+    "cost": 390,
+    "cost_type": "unit",
+    "extras_type": "one",
+    "extras": [
+      {
+        "id": 1,
+        "name": "Optional:",
+        "options": [
+          {
+            "id": 1,
+            "name": "2x Lascannon",
+            "cost": 40,
+            "active": false
+          }
+        ],
+        "type": "check"
+      }
+    ]
+  },
+  {
+    "name": "Doomhammer",
+    "role": "Lord of War",
+    "size": [1],
+    "cost": 420,
+    "cost_type": "unit",
+    "extras_type": "one",
+    "extras": [
+      {
+        "id": 1,
+        "name": "Optional:",
+        "options": [
+          {
+            "id": 1,
+            "name": "2x Lascannon",
+            "cost": 40,
+            "active": false
+          }
+        ],
+        "type": "check"
+      }
+    ]
+  },
+  {
+    "name": "Hellhammer",
+    "role": "Lord of War",
+    "size": [1],
+    "cost": 450,
+    "cost_type": "unit",
+    "extras_type": "one",
+    "extras": [
+      {
+        "id": 1,
+        "name": "Optional:",
+        "options": [
+          {
+            "id": 1,
+            "name": "2x Lascannon",
+            "cost": 40,
+            "active": false
+          }
+        ],
+        "type": "check"
+      }
+    ]
+  },
+  {
+    "name": "Shadowsword",
+    "role": "Lord of War",
+    "size": [1],
+    "cost": 450,
+    "cost_type": "unit",
+    "extras_type": "one",
+    "extras": [
+      {
+        "id": 1,
+        "name": "Optional:",
+        "options": [
+          {
+            "id": 1,
+            "name": "2x Lascannon",
+            "cost": 40,
+            "active": false
+          }
+        ],
+        "type": "check"
+      }
+    ]
+  },
+  {
+    "name": "Stormlord",
+    "role": "Lord of War",
+    "size": [1],
+    "cost": 430,
+    "cost_type": "unit",
+    "extras_type": "one",
+    "extras": [
+      {
+        "id": 1,
+        "name": "Optional:",
+        "options": [
+          {
+            "id": 1,
+            "name": "2x Lascannon",
+            "cost": 40,
+            "active": false
+          }
+        ],
+        "type": "check"
+      }
+    ]
+  },
+  {
+    "name": "Stormsword",
+    "role": "Lord of War",
+    "size": [1],
+    "cost": 420,
+    "cost_type": "unit",
+    "extras_type": "one",
+    "extras": [
+      {
+        "id": 1,
+        "name": "Optional:",
+        "options": [
+          {
+            "id": 1,
+            "name": "2x Lascannon",
+            "cost": 40,
+            "active": false
+          }
+        ],
+        "type": "check"
+      }
+    ]
+  },
+  {
+    "name": "Aegis Defence Line",
+    "role": "Fortification",
+    "size": [1],
+    "cost": 40,
+    "cost_type": "unit"
+  }
+]
